@@ -8,4 +8,8 @@ public interface IConta {
 	void transferir(double valor, IConta contaDestino);
 	
 	void imprimirExtrato();
+
+	double emprestimo(double valorEmprestimo, int parcelas);
+	
+	
 }
